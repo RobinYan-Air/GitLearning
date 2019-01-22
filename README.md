@@ -1,3 +1,5 @@
 # GitLearning
 
-git config --global alias.cm = "git commit -m \"$1\";"
+mb = "!mb() { git commit -m \":bug: $1\"; }; mb"
+mf = "!mf() { git commit -m \":sparkles: $1\"; }; mf"
+ma = "!ma() { git commit -m \":art: $1\"; }; ma"
